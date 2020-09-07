@@ -1,0 +1,19 @@
+.left {
+   
+    float: left;
+    width: 100px;
+    height: 500px;
+    background-color: #f00;
+}
+
+.right {
+    margin-left: 100px;
+    height: 500px;
+    background-color: #0f0;
+}
+
+.right-fix {
+    float: right;
+    width: 100%;
+    margin-left: -100px;
+}

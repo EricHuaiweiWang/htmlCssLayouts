@@ -1,0 +1,38 @@
+/*horizontal 水平布局*/
+/*文本/行内元素/行内块级元素*/
+#parent_1 {
+    text-align: center;
+}
+
+.parent_absolute {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: #f00;
+}
+
+.son_absolute {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #00ff00;
+}
+
+.parent_singleline_vertical {
+    height: 150px;
+    line-height: 150px;
+    background-color: bisque;
+}
+
+.parent_multi_vertical{  /*或者用span把所有文字包裹起来，设置display：inline-block转换成图片的方式解决*/
+    height: 150px;
+    line-height: 30px;  /*元素在页面呈现为5行,则line-height的值为height/5*/
+}
+
+.parent_cell_vertical{
+    display: table-cell;
+    vertical-align: middle;
+}
+
