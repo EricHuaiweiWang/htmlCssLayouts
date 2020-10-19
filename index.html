@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css?t=20200907">
+
+    <style>
+        #winning {
+            background-color: red;
+            border: 1px solid black;
+        }
+
+        .better {
+            background-color: gray;
+            border: none !important;
+        }
+
+        p {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+        }
+    </style>
 </head>
 
 <body>
+    <p class="better">This is a paragraph</p>
+    <p id="winning" class="better" >One selector to rule them all!</p>
     <div class="parent_absolute">parent
         <div class="son_absolute">child</div>
     </div>
     <div class="parent_singleline_vertical">
         <p style="background-color: yellow;">hello world!!</p>
-        
+
     </div>
 
     <div class="parent_multi_vertical" style="background-color:goldenrod;">
@@ -27,6 +47,7 @@
         <p class="p">111</p>
         <p class="p">111</p>
     </div>
+   
 </body>
 
 </html>
