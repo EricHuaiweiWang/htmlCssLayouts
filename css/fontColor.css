@@ -30,7 +30,8 @@ a:hover {
   background-color: #738f69;
 }
 
-#content p, #content h1 {
+#content p,
+#content h1 {
   margin: 0 10px;
 }
 
@@ -61,9 +62,13 @@ a:hover {
 }
 
 #sidebar {
-  max-width: 20%;
+  max-width: 150px;
   background-color: #b5b77c;
   float: right;
+}
+
+#sidebar ul {
+  display: block;
 }
 
 #footer {

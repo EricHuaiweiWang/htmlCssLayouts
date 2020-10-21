@@ -8,7 +8,7 @@ body {
 
 #header ul {
     margin: 0 5%;
-     display: inline-table;
+    display: inline-table;
 }
 
 footer {
@@ -32,9 +32,11 @@ a:hover {
     background-color: #738f69;
 }
 
-#content p,#content h1{
+#content p,
+#content h1 {
     margin: 0 10px;
 }
+
 #header {
     width: 100%;
     height: 4em;
@@ -62,9 +64,13 @@ a:hover {
 }
 
 #sidebar {
-    max-width: 20%;
+    max-width: 150px;
     background-color: #b5b77c;
     float: right;
+}
+
+#sidebar ul{
+    display: block;
 }
 
 #footer {
@@ -72,3 +78,4 @@ a:hover {
     display: inline-block;
     text-align: center;
 }
+
