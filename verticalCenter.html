@@ -50,10 +50,28 @@
         #p1 {
             width: 20px;
         }
+
+        .loading:after{
+            overflow: hidden;
+            display:inline-block;
+            vertical-align: bottom;
+            animation: ellipsis 2s infinite;
+            content: "\2026";
+        }
+        @keyframes ellipsis{
+            from{
+                width: 2px;
+            }
+            to{
+                width: 15px;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <div class="loading"></div>
+
     <!-- Package long text -->
     <p id='p1'>show how to flexible text in line</p>
     <table id="t1">
