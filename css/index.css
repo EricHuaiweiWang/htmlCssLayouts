@@ -2,6 +2,7 @@
 /*文本/行内元素/行内块级元素*/
 #parent_1 {
     text-align: center;
+    display:flex;
 }
 
 .parent_absolute {
